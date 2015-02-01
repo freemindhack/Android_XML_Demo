@@ -1,0 +1,30 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" > 
+ 
+    <Button
+        android:id="@+id/readxml" 
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4a4ab3"
+        android:text="ReadXML"
+        android:textColor="#fff"
+        />
+    
+    <Button
+        android:id="@+id/writexml" 
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4a4ab3"
+        android:text="WriteXML"
+        android:textColor="#fff"
+        />
+ 
+ </LinearLayout>
+
